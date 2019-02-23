@@ -22,8 +22,8 @@ def times_iterator(number_of_times)
   number_of_times = 1
   loop do
     puts phrase
-    break if number_of_times > 7
-    number_of_times +=1
+    break if number_of_times >= 7
+    number_of_times += 1
   end
 end
 
