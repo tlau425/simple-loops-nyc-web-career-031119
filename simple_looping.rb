@@ -21,10 +21,9 @@ def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
   number_of_times = 1
-  loop do
-    puts phrase
-    break if number_of_times >= 7
-    number_of_times += 1
+  while number_of_times <= 7
+  puts phrase
+  number_of_times += 1
   end
 end
 
