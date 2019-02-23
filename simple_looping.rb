@@ -16,12 +16,6 @@ def loop_iterator(number_of_times)
     number_of_times += 1
   end
 end
-  
-  while number_of_times <= 7
-  puts phrase
-  number_of_times += 1
-  end
-end
 
 def times_iterator(number_of_times)
   # code your solution here using the "times" keyword
