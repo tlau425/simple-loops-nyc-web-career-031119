@@ -12,6 +12,7 @@ def loop_iterator(number_of_times)
   number_of_times = 1
   while number_of_times <= 7
   puts phrase
+  number_of_times +=1
   end
 end
 
